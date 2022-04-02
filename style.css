@@ -1,0 +1,122 @@
+body{
+    margin: 0px;
+    padding:0px;
+    font-family: 'Rubik', sans-serif;
+}
+.background{
+    background:url(images/background.jpg);
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 600px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode:darken ;
+    overflow: hidden;
+    color: rgba(255, 255, 255,0.8);
+}
+.background-font h1{
+    margin: 0 auto;
+    font-size: 45px;
+    margin-top:2% ;
+    margin-left: 1%;
+
+}
+.background-font .name{
+    font-size: 40px;
+    font-weight: 500;
+    margin-left: 1%;
+}
+.background-font span{
+    color: #FBA500;
+}
+.about-web {
+    margin: 0 auto;
+    width: 80%;
+    height: 325px;
+}
+.about-web h3{
+    font-size: 50px;
+    text-align: center;
+}
+.about-web p{
+    font-size: 30px;
+    text-align: center;
+}
+.about-web a{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    padding: 17px 30px;
+    color: white;
+    font-weight: 600;
+    border-radius: 5%; 
+    margin-left: 45%;
+}
+.about-web a:hover{
+    background-image: linear-gradient(rgb(252, 218, 218),rgb(228, 228, 228));
+    color: black;
+}
+.section2{
+    display: flex;
+}
+.about,.image{
+    width: 50%;
+    height: 465px;
+    padding: 2%;
+
+} 
+.about h3{
+    font-size: 30px;
+}
+.about h4{
+    font-size: 24px;
+    color: #E21E51;
+    font-weight: 500;
+}
+.about p{
+    color: #8B999E;
+    font-size:21px ;
+    font-weight: 400;
+    line-height: 28px;
+}
+.about p span{
+    color: #3175A3;
+}
+.image img{
+    width: 78%;
+    margin-left: 10%;
+
+}
+.section3{
+    margin-bottom: 50px;
+    background-color: #EFEFF5;
+}
+
+.section3 h1{
+    font-size:40px ;
+    margin-left: 5%;
+}
+.projects{
+   display: flex; 
+   margin: 0 auto;
+   width: 35%;
+   height: 225px;
+   overflow: hidden;
+   overflow-x: auto;
+
+}
+
+.item{
+   min-width: 70%;
+    height: 100%;
+    background: #f12929;
+    margin: 10px;
+    padding: 5%;
+}
+.item img{
+    width: 100%;
+}
+.item img:hover{
+    border: 1px solid #000;
+    box-shadow: rgb(0 0 0 / 50%) 4px 4px 5px, rgb(0 0 0 / 50%) -4px -4px 10px;
+}
+
